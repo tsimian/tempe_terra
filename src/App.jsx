@@ -1,9 +1,13 @@
+import DrawerAppBar from "./components/DrawerAppBar";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
+      <DrawerAppBar />
+      <main>
+        <h1>Hello, world!</h1>
+      </main>
     </>
   );
 }
