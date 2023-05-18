@@ -3,12 +3,12 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <DrawerAppBar />
-      <main>
+      <main className="main-content">
         <h1>Hello, world!</h1>
       </main>
-    </>
+    </div>
   );
 }
 

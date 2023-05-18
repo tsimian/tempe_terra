@@ -1,5 +1,4 @@
 import * as React from "react";
-import PropTypes from "prop-types";
 import {
   AppBar,
   Box,
@@ -29,9 +28,17 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box
+      onClick={handleDrawerToggle}
+      sx={{
+        textAlign: "center",
+        backgroundColor: "primary.main",
+        color: "#f4f4f4",
+        height: "100%",
+      }}
+    >
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Tempe Terra
       </Typography>
       <Divider />
       <List>
@@ -43,6 +50,9 @@ function DrawerAppBar(props) {
           </ListItem>
         ))}
       </List>
+      <Typography variant="body2" sx={{ mt: "100%" }}>
+        &copy; {new Date().getFullYear()}
+      </Typography>
     </Box>
   );
 
@@ -50,7 +60,7 @@ function DrawerAppBar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", color: "primary.main" }}>
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
@@ -68,7 +78,7 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            MUI
+            Tempe Terra
           </Typography>
           <Box
             sx={{
