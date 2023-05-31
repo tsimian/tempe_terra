@@ -55,6 +55,8 @@ a:hover {
   padding-left: 10%;
 }
 
+/* Learn more button */
+
 .MuiButton-root {
   border-radius: 3rem !important;
   padding: 0.5rem 2rem !important;
@@ -99,10 +101,36 @@ a:hover {
   }
 }
 
+/* Price tiers */
+.price-container {
+  background-color: #242526;
+}
+
+.price-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  padding: 2rem;
+}
+
+.card {
+  width: 300px;
+}
+
 @media (max-width: 600px) {
   .intro {
     padding: 0;
     text-align: center;
     width: auto;
+  }
+
+  .price-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
   }
 }
