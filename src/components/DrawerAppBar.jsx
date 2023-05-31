@@ -76,7 +76,11 @@ function DrawerAppBar(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", sm: "block" },
+              fontWeight: "600",
+            }}
           >
             Tempe Terra
           </Typography>
@@ -85,7 +89,7 @@ function DrawerAppBar(props) {
               display: { xs: "none", sm: "flex" },
               justifyContent: "space-between",
               alignItems: "center",
-              width: "40%",
+              width: "50%",
             }}
           >
             {navItems.map((item) => (
