@@ -3,7 +3,7 @@ import { Container, Card, CardContent, Typography } from "@mui/material";
 
 const PriceTiers = () => {
   return (
-    <Container className="price-container">
+    <Container className="price-container" id="pricing">
       <div className="price-wrapper">
         <Card className="card">
           <CardContent>

@@ -15,6 +15,7 @@ import {
   Button,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import { ImRocket } from "react-icons/im";
 
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Pricing", "Contact"];
@@ -35,24 +36,37 @@ function DrawerAppBar(props) {
         backgroundColor: "primary.main",
         color: "#f4f4f4",
         height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        alignItems: "center",
       }}
     >
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Tempe Terra
-      </Typography>
-      <Divider />
-      <List>
+      <Box
+        sx={{
+          height: "50%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-evenly",
+        }}
+      >
+        <Typography variant="h6" sx={{ my: 2, fontWeight: 600 }}>
+          Tempe Terra
+        </Typography>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
+          <Button key={item} sx={{ color: "#fff" }}>
+            <a href={`#${item}`.toLowerCase()}>{item}</a>
+          </Button>
         ))}
-      </List>
-      <Typography variant="body2" sx={{ mt: "100%" }}>
-        &copy; {new Date().getFullYear()}
-      </Typography>
+      </Box>
+      <Box sx={{ padding: "1rem" }}>
+        <Box sx={{ marginBottom: "16px" }}>
+          <ImRocket size={24} />
+        </Box>
+        <Typography variant="body2">
+          &copy; {new Date().getFullYear()}
+        </Typography>
+      </Box>
     </Box>
   );
 
@@ -73,6 +87,11 @@ function DrawerAppBar(props) {
           >
             <MenuIcon />
           </IconButton>
+          <Box
+            sx={{ display: { xs: "none", sm: "flex" }, marginRight: "14px" }}
+          >
+            <ImRocket size={24} />
+          </Box>
           <Typography
             variant="h6"
             component="div"
@@ -84,6 +103,9 @@ function DrawerAppBar(props) {
           >
             Tempe Terra
           </Typography>
+          <Box sx={{ display: { sm: "none" }, margin: "0 auto" }}>
+            <ImRocket size={24} />
+          </Box>
           <Box
             sx={{
               display: { xs: "none", sm: "flex" },
@@ -94,7 +116,7 @@ function DrawerAppBar(props) {
           >
             {navItems.map((item) => (
               <Button key={item} sx={{ color: "#fff" }}>
-                {item}
+                <a href={`#${item}`.toLowerCase()}>{item}</a>
               </Button>
             ))}
           </Box>

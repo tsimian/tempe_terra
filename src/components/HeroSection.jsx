@@ -5,7 +5,7 @@ import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrow
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="home">
       <img src={HeroImage} alt="Hero" className="hero-image" />
       <div className="overlay" />
       <Grid
