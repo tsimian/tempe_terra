@@ -18,7 +18,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { ImRocket } from "react-icons/im";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Pricing", "Contact"];
+const navItems = ["Home", "Pricing", "About", "Contact"];
 
 function DrawerAppBar(props) {
   const { window } = props;
