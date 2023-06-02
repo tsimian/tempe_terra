@@ -54,7 +54,7 @@ function DrawerAppBar(props) {
           Tempe Terra
         </Typography>
         {navItems.map((item) => (
-          <Button key={item} sx={{ color: "#fff" }}>
+          <Button key={item} sx={{ color: "#fff" }} className="menu-btn">
             <a href={`#${item}`.toLowerCase()}>{item}</a>
           </Button>
         ))}
@@ -115,7 +115,7 @@ function DrawerAppBar(props) {
             }}
           >
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
+              <Button key={item} sx={{ color: "#fff" }} className="menu-btn">
                 <a href={`#${item}`.toLowerCase()}>{item}</a>
               </Button>
             ))}
