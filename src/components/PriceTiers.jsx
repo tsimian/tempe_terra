@@ -21,7 +21,8 @@ const PriceTiers = () => {
               $15,000
             </Typography>
             <Typography variant="body1" component="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <strong>Embrace the essential journey:</strong> Find your zen in
+              the mystical Martian sands, where simplicity becomes serenity.
             </Typography>
             <Button
               variant="outlined"
@@ -51,7 +52,8 @@ const PriceTiers = () => {
               $50,000
             </Typography>
             <Typography variant="body1" component="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <strong>Ascend to the cosmos:</strong> Experience extravagance,
+              where opulence and exploration meet in a celestial dance.
             </Typography>
             <Button
               variant="outlined"
@@ -71,7 +73,9 @@ const PriceTiers = () => {
               $100,000
             </Typography>
             <Typography variant="body1" component="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <strong>Unleash your inner Martian royalty:</strong> Indulge in
+              unparalleled luxury, where grandeur meets the celestial splendor
+              of Tempe Terra.
             </Typography>
             <Button
               variant="outlined"

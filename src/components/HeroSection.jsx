@@ -34,11 +34,11 @@ const HeroSection = () => {
           }}
         >
           <Typography variant="h2" component="h2" className="intro">
-            A new start,
+            A new start:
           </Typography>
           <br></br>
           <Typography variant="h4" component="h4" className="intro">
-            a home away from home.
+            Discover home away from home on Mars
           </Typography>
         </Grid>
         {/* Right side */}
