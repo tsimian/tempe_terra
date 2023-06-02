@@ -54,7 +54,7 @@ const HeroSection = () => {
           }}
         >
           <Button variant="contained" color="secondary" className="more-btn">
-            <a href="#">Learn more</a>
+            <a href="#about">Learn more</a>
           </Button>
           <KeyboardDoubleArrowDownIcon
             sx={{

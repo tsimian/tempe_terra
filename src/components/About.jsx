@@ -43,6 +43,10 @@ const About = () => {
             transcends the mundane, daring to unveil the extraordinary on the
             celestial canvas of Tempe Terra.
           </Typography>
+          <br></br>
+          <Typography variant="body2" component="p" className="about-text">
+            <em>(This text was written by AI)</em>
+          </Typography>
         </Grid>
         {/* Right side */}
         <Grid
