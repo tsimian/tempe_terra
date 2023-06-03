@@ -214,6 +214,13 @@ hr {
 }
 
 /* Testimonials */
+.testimonials-section {
+  display: "flex";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .testimonials-container {
   margin-top: 16px;
   padding: 4rem;

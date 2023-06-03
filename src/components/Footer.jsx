@@ -16,7 +16,7 @@ const Footer = () => {
         </ul>
       </div>
       <p>
-        <em>(This site was written and built with the help of ChatGPT)</em>
+        <em>(This site was written and built with the use of ChatGPT)</em>
       </p>
     </footer>
   );

@@ -12,6 +12,9 @@ import { ImQuotesLeft } from "react-icons/im";
 const Testimonials = () => {
   return (
     <div className="testimonials-section section">
+      <Typography variant="h4" component="h4">
+        Hear from our brave adventurers
+      </Typography>
       <Grid container spacing={3} className="testimonials-container">
         <Grid item xs={12} sm={4}>
           <Card className="testimonial-card">
