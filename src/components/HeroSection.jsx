@@ -59,7 +59,7 @@ const HeroSection = () => {
         </Grid>
         <KeyboardDoubleArrowDownIcon
           sx={{
-            mt: 6,
+            mt: 4,
             fontSize: "36px",
           }}
           className="arrow-down"

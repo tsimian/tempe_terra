@@ -109,9 +109,9 @@ function DrawerAppBar(props) {
           <Box
             sx={{
               display: { xs: "none", sm: "flex" },
-              justifyContent: "space-between",
+              justifyContent: { sm: "space-evenly", md: "space-between" },
               alignItems: "center",
-              width: "50%",
+              width: { sm: "60%", md: "50%" },
             }}
           >
             {navItems.map((item) => (
