@@ -12,7 +12,7 @@ import { ImQuotesLeft } from "react-icons/im";
 const Testimonials = () => {
   return (
     <div className="testimonials-section section">
-      <Typography variant="h4" component="h4">
+      <Typography variant="h4" component="h4" className="testimonials-heading">
         Hear from our brave adventurers
       </Typography>
       <Grid container spacing={3} className="testimonials-container">

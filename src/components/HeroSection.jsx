@@ -56,15 +56,14 @@ const HeroSection = () => {
           <Button variant="contained" color="secondary" className="more-btn">
             <a href="#mission">Learn more</a>
           </Button>
-          <KeyboardDoubleArrowDownIcon
-            sx={{
-              display: { sm: "none" },
-              mt: 6,
-              fontSize: "200%",
-            }}
-            className="arrow-down"
-          />
         </Grid>
+        <KeyboardDoubleArrowDownIcon
+          sx={{
+            mt: 6,
+            fontSize: "36px",
+          }}
+          className="arrow-down"
+        />
       </Grid>
     </div>
   );
