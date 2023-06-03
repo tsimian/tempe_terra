@@ -1,5 +1,6 @@
 import DrawerAppBar from "./components/DrawerAppBar";
 import HeroSection from "./components/HeroSection";
+import Mission from "./components/Mission";
 import PriceTiers from "./components/PriceTiers";
 import About from "./components/About";
 import GoTop from "./components/GoTop";
@@ -12,6 +13,7 @@ function App() {
       <DrawerAppBar />
       <main className="main-content">
         <HeroSection />
+        <Mission />
         <PriceTiers />
         <About />
         <GoTop />

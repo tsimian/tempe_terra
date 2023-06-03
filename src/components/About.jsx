@@ -36,12 +36,13 @@ const About = () => {
           </Typography>
           <br></br>
           <Typography variant="h6" component="h6" className="about-text">
-            Born out of the depths of cosmic inspiration, Tempe Terra was
-            founded by a charismatic luminary whose fervent belief in the
-            boundless potential of Mars ignited a flame of devotion within the
-            hearts of its disciples. Together, we embark on a journey that
-            transcends the mundane, daring to unveil the extraordinary on the
-            celestial canvas of Tempe Terra.
+            Born out of the depths of cosmic inspiration,{" "}
+            <strong>Tempe Terra</strong> was founded by a charismatic luminary
+            whose fervent belief in the boundless potential of Mars{" "}
+            <strong>ignited a flame of devotion</strong> within the hearts of
+            its disciples. Together, we embark on a journey that transcends the
+            mundane, daring to unveil the extraordinary on the celestial canvas
+            of <strong>Tempe Terra</strong>.
           </Typography>
           <br></br>
           <Typography variant="body2" component="p" className="about-text">
