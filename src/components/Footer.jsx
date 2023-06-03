@@ -15,6 +15,9 @@ const Footer = () => {
           <li>Mail</li>
         </ul>
       </div>
+      <p>
+        <em>(This site was written and built with the help of ChatGPT)</em>
+      </p>
     </footer>
   );
 };

@@ -1,6 +1,13 @@
 import React from "react";
-import { Avatar, Grid, Card, CardContent, Typography } from "@mui/material";
-import { deepOrange, deepPurple } from "@mui/material/colors";
+import {
+  Avatar,
+  Box,
+  Grid,
+  Card,
+  CardContent,
+  Typography,
+} from "@mui/material";
+import { ImQuotesLeft } from "react-icons/im";
 
 const Testimonials = () => {
   return (
@@ -9,22 +16,30 @@ const Testimonials = () => {
         <Grid item xs={12} sm={4}>
           <Card className="testimonial-card">
             <CardContent>
-              <Avatar
-                alt="Remy Sharp"
-                src="/images/remy-sharp.jpg"
+              <Box
                 sx={{
-                  marginLeft: "auto",
-                  width: 56,
-                  height: 56,
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
                 }}
-              />
-              <Typography variant="h5" sx={{ mb: 1 }}>
-                Remy Sharp
+              >
+                <ImQuotesLeft size={24} color="#cd693e" />
+                <Avatar
+                  alt="Remy Sharp"
+                  src="/images/remy-sharp.jpg"
+                  sx={{
+                    marginLeft: "auto",
+                    width: 56,
+                    height: 56,
+                  }}
+                />
+              </Box>
+              <Typography variant="body2" sx={{ mt: 1, fontSize: "18px" }}>
+                When the world faces uncertainty, it's reassuring to have a
+                backup plan on Mars.
               </Typography>
-              <hr />
-              <Typography variant="body2" sx={{ mt: 1 }}>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                et velit commodo, blandit risus ut, lacinia mauris."
+              <Typography variant="body2" sx={{ mt: 3, fontSize: "16px" }}>
+                <strong>- Remy Sharp</strong>
               </Typography>
             </CardContent>
           </Card>
@@ -32,18 +47,30 @@ const Testimonials = () => {
         <Grid item xs={12} sm={4}>
           <Card className="testimonial-card">
             <CardContent>
-              <Avatar
-                alt="Travis Howard"
-                src="/images/travis-howard.jpg"
-                sx={{ marginLeft: "auto", width: 56, height: 56 }}
-              />
-              <Typography variant="h5" sx={{ mb: 1 }}>
-                Travis Howard
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <ImQuotesLeft size={24} color="#cd693e" />
+                <Avatar
+                  alt="Travis Howard"
+                  src="/images/travis-howard.jpg"
+                  sx={{
+                    marginLeft: "auto",
+                    width: 56,
+                    height: 56,
+                  }}
+                />
+              </Box>
+              <Typography variant="body2" sx={{ mt: 1, fontSize: "18px" }}>
+                Booking is a practical decision. When the time comes, I'll be
+                ready to explore new horizons on Mars.
               </Typography>
-              <hr />
-              <Typography variant="body2" sx={{ mt: 1 }}>
-                "Sed non ex at ipsum dapibus lobortis. Aliquam lobortis bibendum
-                lacus, eget vestibulum dolor facilisis ac."
+              <Typography variant="body2" sx={{ mt: 3, fontSize: "16px" }}>
+                <strong>- Travis Howard</strong>
               </Typography>
             </CardContent>
           </Card>
@@ -51,22 +78,30 @@ const Testimonials = () => {
         <Grid item xs={12} sm={4}>
           <Card className="testimonial-card">
             <CardContent>
-              <Avatar
-                alt="Cindy Baker"
-                src="/images/cindy-baker.jpg"
+              <Box
                 sx={{
-                  marginLeft: "auto",
-                  width: 56,
-                  height: 56,
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
                 }}
-              />
-              <Typography variant="h5" sx={{ mb: 1 }}>
-                Cindy Baker
+              >
+                <ImQuotesLeft size={24} color="#cd693e" />
+                <Avatar
+                  alt="Cindy Baker"
+                  src="/images/cindy-baker.jpg"
+                  sx={{
+                    marginLeft: "auto",
+                    width: 56,
+                    height: 56,
+                  }}
+                />
+              </Box>
+              <Typography variant="body2" sx={{ mt: 1, fontSize: "18px" }}>
+                I'm excited about my future journey. Mars offers a fresh start
+                and a chance for new experiences.
               </Typography>
-              <hr />
-              <Typography variant="body2" sx={{ mt: 1 }}>
-                "Vestibulum quis pharetra justo. Mauris vehicula augue ut sapien
-                cursus interdum. Donec faucibus malesuada."
+              <Typography variant="body2" sx={{ mt: 3, fontSize: "16px" }}>
+                <strong>- Cindy Baker</strong>
               </Typography>
             </CardContent>
           </Card>

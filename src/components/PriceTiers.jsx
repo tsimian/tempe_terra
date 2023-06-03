@@ -11,9 +11,14 @@ import {
 const PriceTiers = () => {
   return (
     <Box className="price-container" id="pricing">
-      <Typography variant="h2" component="h2" className="price-heading">
-        Join Us
-      </Typography>
+      <Box sx={{ textAlign: "center", color: "#f4f4f4" }}>
+        <Typography variant="h2" component="h2">
+          Join Us
+        </Typography>
+        <Typography variant="h6" component="h6">
+          Book your seat today!
+        </Typography>
+      </Box>
       <div className="price-wrapper">
         <Card className="card card-1">
           <CardContent>

@@ -150,12 +150,6 @@ hr {
   padding: 3rem 0;
 }
 
-.price-heading {
-  text-align: center;
-  font-weight: 600;
-  color: #f4f4f4;
-}
-
 .price-wrapper {
   display: flex;
   flex-direction: row;
@@ -222,7 +216,7 @@ hr {
 /* Testimonials */
 .testimonials-container {
   margin-top: 16px;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .testimonial-card {
@@ -267,6 +261,11 @@ footer {
 
 .socials ul li:hover {
   color: #a7a7a7;
+}
+
+footer p {
+  margin-top: 16px;
+  font-size: 12px;
 }
 
 /* Scroll up button */
