@@ -4,7 +4,7 @@ import AboutImage from "../images/mars-ppl.jpg";
 
 const About = () => {
   return (
-    <div className="about-section" id="about">
+    <div className="about-section section" id="about">
       <Grid
         container
         spacing={1}

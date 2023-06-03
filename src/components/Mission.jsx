@@ -4,7 +4,7 @@ import ModelCanvas from "./ModelCanvas";
 
 const Mission = () => {
   return (
-    <div className="mission-section" id="mission">
+    <div className="mission-section section" id="mission">
       <Grid
         container
         spacing={3}
@@ -46,7 +46,7 @@ const Mission = () => {
           }}
         >
           <Typography variant="h4" component="h4" className="mission-text">
-            Mission: To secure humanity's future
+            <strong>Mission</strong>: To secure humanity's future
           </Typography>
           <br></br>
           <Typography variant="h6" component="h6" className="mission-text">

@@ -40,6 +40,16 @@ hr {
   text-align: center;
 }
 
+.section {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #242526;
+  color: #f4f4f4;
+}
+
 /* Hero section */
 .hero-section {
   position: relative;
@@ -122,10 +132,28 @@ hr {
   }
 }
 
+/* Mission */
+#canvas {
+  height: 100%;
+  touch-action: none;
+}
+
+.mission-text {
+  width: 100%;
+  text-align: left;
+  padding-right: 10%;
+}
+
 /* Price tiers */
 .price-container {
   background-color: #242526;
-  padding: 2rem 0;
+  padding: 3rem 0;
+}
+
+.price-heading {
+  text-align: center;
+  font-weight: 600;
+  color: #f4f4f4;
 }
 
 .price-wrapper {
@@ -184,32 +212,25 @@ hr {
   margin-top: 10px !important;
 }
 
-/* Mission/About */
-.about-section,
-.mission-section {
-  padding: 2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #242526;
-  color: #f4f4f4;
-}
-
+/* About */
 .about-text {
   width: 100%;
   text-align: left;
   padding-left: 10%;
 }
 
-#canvas {
-  height: 100%;
+/* Testimonials */
+.testimonials-container {
+  margin-top: 16px;
+  padding: 2rem;
 }
 
-.mission-text {
-  width: 100%;
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   text-align: left;
-  padding-right: 10%;
 }
 
 /* Footer */
